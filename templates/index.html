@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Emotion Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Emotion Detection</h1>
+    <div class="card">
+    <video id="video" autoplay></video>
+    <canvas id="canvas" style="display:none;"></canvas>
+
+    <div class="buttons">
+    <button onclick="capture()">Detect From Camera</button>
+
+    <input type="file" id="upload" accept="image/*">
+    <button onclick="uploadImage()">Upload & Detect</button>
+
+     </div>
+
+        <div id="result" class="result-card"></div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
