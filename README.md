@@ -185,7 +185,7 @@ Emotion – Multi-class classification problem predicting one of the seven emoti
 
 - Develop HTML page for webcam and image upload
 
-- Display predicted emotion and confidence score
+- Display predicted emotion 
 
 🔹 Backend
 
